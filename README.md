@@ -8,7 +8,7 @@
 ## Running
 
     cd todomvc
-    lein trampoline run -m clojure.main script/build.clj
-    lein trampoline run -m clojure.main script/server.clj
+    clojure script/build.clj
+    clojure script/server.clj
 
 Head on to http://localhost:8081/ to see the running application.
